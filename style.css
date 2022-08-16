@@ -1,0 +1,19 @@
+body {
+    background-color: azure;
+}
+table {
+    border-collapse: collapse;
+    font-family: arial, sans-serif;
+    width: 100%;
+}
+th, td {
+    border-color: rgb(56, 56, 56);
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+  border-color: rgb(56, 56, 56);
+}

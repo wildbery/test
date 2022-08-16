@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <table border="1">
+            Stackoverflow에서 조사한 사용률 상위 25개 프로그래밍 언어
+            <tr>
+                <td>#1 <img src="https://github.com/voodootikigod/logo.js/blob/master/js.jpg?raw=true" width="25"
+                        height="25"><a href="#" onclick="return show('Javascript','main')">Javascript</a></td>
+                <td>#2 <img
+                        src="https://w.namu.la/s/6f8695350c52d8a6f07a30787fdd07ed65e77e010c16732832924d0effa75207dccdd972b8c7f5b9e7077c006e48cadde42f66172c11432a3c92e4407b4fcfdc98f971be170a1a41165605882e8d83daa8db43c2dea2612682ab9947e9c4465d"
+                        width="25" height="25"><img
+                        src="https://w.namu.la/s/779cac1a9257c783d10934e258d7ef27388764ce11ca11a6ba183cd17aa68c087262456000c7c302580062725157aac289938874b87037a9ee56ee7a417c1ce45cc18d669ba06f967b759e8733b5afa831376a6f9c8e484c61bb553d0d41fdfe"
+                        width="25" height="25">
+                    <a href="#" onclick="return show(' Htmlcss','main')">HTML, CSS</a>
+                </td>
+                <td>#3 <img src="https://www.python.org/static/opengraph-icon-200x200.png" width="25" height="25"><a
+                        href="#" onclick="return show(' Python','main')">Python</a></td>
+                <td>#4 <img
+                        src="https://hh-certificates.sgp1.digitaloceanspaces.com/blog/wp-content/uploads/2021/11/11081503/9-92644_database-clipart-raw-data-azure-sql-server-png.png"
+                        width="25" height="25"><a href="#" onclick="return show(' SQL','main')">SQL</a></td>
+                <td>#5 <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAolBMVEX////kHyAAbbbjAAAAY7IAYbEAZbMAabQAa7XW6PQAZ7MAXrDL4fAAcbnu9/v8//+92Ovf7vcAW69xptLkGhvjDQ6y0edCjcYAV6374eHjFBX5zc7+9vahxeH1+/0Per2Gs9hSlclmoM/0rK3zoaH3wsLrXV7ufX7sZGXsa2wogsGUvNx5rdXnMTPqUlPpSUn2t7f96+zoP0HwjIz61tbxlpazJobbAAAEqklEQVRoge1XaVerOhSVBAgNQxlKaKuM2imgz+r1//+1d8Jkq/XeUknXfW+5P7hgSbNzpn3Oubn5wQ/+Qtxdg2Rxfw0WfA1bHq9hytM/1yDBVyB5xHvpHHt8BZJnfIX0WoeP0jkWONxIJ1kv8a1sjmc8k+6tBVbws2SO/XI2e5HNocwUvJDLsZgBx4NcjlsMHDu5HPfAER4K8N1q9MrfYOWIY7V+Gjs6+5cjjv0rHj+Tb8OlouB1+7bYYTy+tDxAOJTu3D1QKOMriwjHDLed/Q2HMlJsKzjC5u4Qm55uTKwFx6zJpBVezmSI8E5wLJuG+4zBJAmy8gAcnV7dwjP+NT7HouZoSuIuBFmRMdjtoD6WbX3sQkWKzt8dOGuPFTkN65eI+lPzfC8pIk2o2w4iPCdlhhBxx6vmeQskoZSWJXphe3thyUyRQbIJ+2C/hYoip/uCv8LX5lHER5EzR2zCfph7BL2XUyk3IPJt5O8bU14lkMCM0l2+NkWOwx5wJ1i1kClLKVPRBoftatU4LJRBAq2xGyE2dRrL2ea2vcJDOSqhpG1u20UbKnL5JIcDWNoMW+FeyyRg99CShDJH7tc6Em/4wzJnxWXJvItP9VhZBGzav9ck4ctR1BkvCu5rWn4JTcIK5PPy009ft8fvjvgz4ZRSayiFm1OTZicut/piVuGGQZxBFIxrhOTJqX8duiqxWH+upyNaDeEoTIIQKb68WOJZrAwi2wwOPomIkQ4hCUxqGIiovMji2HUtAddlLC6zoIi4TTXT9E27OPJmQA0y/erEU7AqTjVV11WA9hGmpvM8+5SzOUH2EA6BZMLKrMgjnqa2QJpyHuVBFjPLO3XhBBkkH0oyFLGONFcyh0MMeqEhTnZugXFC+aCw98jUMy83jajOT5bVH1FoBj9dK54bBwfZ5XBdG1SI75hSqBU9qsrYtSZejYnF4iznhqrqlMTdh0w3+WDdev+xDoJEKZSLVpeMAJxORKVS1W90x8nn0XfSyilTVaXEQAaqYQAIEaQoytzak0lln5LRYfAYuMcW1oAxYEXK8yB23491J99l6DF1IB4QE+eyLP074Iznjy8pCuOyGhsAz6CfezDoc8ZGJIk1hKiGeFRkZSyQBVFKIctUPp7iJqlu1OUBs4guQKmoRADx7fGsyahK0AeACqikGMEUbzJpIp6w3BZiAmoCqKvSiDLr2wVjZVyz84PgguiKThxFOUwW7snu6wxKQtArHw2Xo2RAO5lWENxyKAPAmp99LweyyeDDKbxqnp39cU5FdvJ4iLccN+PzIU2rEvMpMnSdFxDg33u5nVWROSdBq2/leXFhOdLq5kd1TTOgeRRVWcaMuQ1YPapWkGmpTVUxqxpR2RnhRWf3+annwv1SAu1P79DPql0PhndVTyHLJ306u4UfncvRQTgjLsV4ndqo1RSwENkpCFlQHjszcSvb17KhHMfGTROnwYky9NwsIqZJqmEbUHs7Zv3+Z44YviIEW4SJCnZh13HiPE0jCHzMxIYyATRrSlxWRZQi1fR9H8a/IP5m73QsMcs1B85b+D4sKLaYWkrYIr53/hGmU8fxJg1gZvlPDy0/+P/gX+rkXWpMU5czAAAAAElFTkSuQmCC"
+                        width="25" height="25"><a href="#" onclick="return show(' Java','main')">Java</a></td>
+            </tr>
+            <tr>
+                <td>#6 <img src="./image/nodejs-new-pantone-black-_1_.png" width="25" height="25"><a href="#"
+                        onclick="return show(' Nodejs','main')">Node.js</a></td>
+                <td>#7 <img
+                        src="https://w.namu.la/s/586b56f80ada29375db50c319d2a9522aeda0494f23918781d1399450d2560807943395448b052394b805fb97a10160e916fc11192e7ce18e0f24d8a0cff58a05e746f82fe5951335a15a1f55117b13e1eb3bfad84548cd05c3546f343d30d60"
+                        width="25" height="25"><a href="#" onclick="return show(' Typescript','main')">Typescript</a>
+                </td>
+                <td>#8 <img
+                        src="https://w.namu.la/s/a5c8b52bd00f38f3430dd7540867240527fd91e023abc9ff5afc7612faaf0ff3d089ebc7d17fd742323e15a32383753a3777de02ec664a6e15b0e92847220dc4c8b8693698715c0a6f1e2ebf08285467bae8529741077caf4f21184429065877"
+                        width="25" height="25"><a href="#" onclick="return show(' Csharp','main')">C#</a>
+                </td>
+                <td>#9 <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAw1BMVEX///8oMDcADxwjKzP5+flVWl8DFiFMUVbs7O1NqCUgKTEkLTQcJi4ACxklLTUWISoQHSYTHygKGSMAABQADRolJDjT1NUmKDja29ypq61na284PkTMzc6Hio2dn6He3+CytLV4fH9eY2dPriS+v8FDSU6Ag4YtNTzn6OiVmJpKUFUnKzfExca3ubtvc3eQk5Y+fC1HlSg7cS9KnicxUDMpNTYAABU8Q0k4ZzBDiSsyVTM9di4rPDY0WzI1YDFImCguRTUjR93LAAAMEElEQVR4nN1daYOquBK9IqINYbe94oq2S9uj9ixvpmd57838/181LAkqQggkgcD5dm8j5phKUnUKqr59qxHyenHenRfTUZ1fWhtG/vWoK45jWY6ig+1q3fSAGOMy0C1g9BKopjRfyU2Pih0801F7aWime+iIue4MS0OsVBCgj0iC8anpwTHA+0CKrbNvKvp+dlgurwNFsuCc2r1z0wOkxdJV4XQNvWnyv++Xq2JHE6tJ2/cGh0eNCzBjfsoyzUP2NCvedPTPRsbGAuuhEs1T391kbpueAiKOZn9X99CYQD7EBqopH3lnn7zR+/Elwxaaqm/HBmqaPuaq6d6Bprqsa2CMEIw82kFVd1lwrvsONFVwqWdoTCBvXGh9g2LnTD7oRdYsHDw0LSrZDrL+QDvSoRWO3OQLLi2X/BS4mHDR2j6/gTGCfHXhST4otT0uY1M1nP20+OImsYJHXHlvLPDuYlPVsw9PMbCYIwOt4lHvVOgAOR7zkbHBaKZHJ4Q2nlWMij5jU+058wnbobHBSooN1DouKt/jfRsHIpp+Fc5UF8fYjwb6iuo+Z8OO7yPR3Yc1Rtuxxuq3Z2ELzHFiun6C9Qx/rqrrmTV2PWRYrPbAxOSFMFWkUrA9x6qfq8yRbPCMfZHRVUcqR6Omig5p0/GZ3zvxb8fNqRxIpVB1PjFB2RiFNeQliuuGvOK6ROUo6cazgZ8EPDxj8+leMZpROYJv1ur55pveU6fKIR/c+qznpnJwWw1P8CwkHtWzA/De0dJIdvEateoLOpUsn/t3Bdtb9HsaNecbkGeh8FY5vMa8KT7eYRoTqFKAcRMe8Q6FjgovlSNwFY1mo5okSvvionKIEJmOthKzSDuNJGRTmg3ZbqEjW1O9hd3NK0TIlpw5Q1s6jUVS+ZBqaVRWLdNI5C9hlFqkPNMKezGQhJmXqm4G6FxmsO1BX8Lg7kuUxC0DRKdy7IC4Wa9bFq/6Y0drmA6qy6cvC6RyVHYhT4XPUjQNlE03pFmFKZA/HBgEivwEAUqQA7v0ObY21Wb0kbKAepHm+uU+N4lXoNKExlUS8jLeVcudjdPISVMdkQ30hvU8mka9hEMyckKC4EuQ1E8xrkpI0SWXjebhGjS3HIfEGqdxSHFMuqYOZtsIhhFH6FnOyS5e6OEa/OA7IuZYhnGjTSb/HbXwMXMhvRgcBuHSckns1AtPel2gHDohZDuIgVSStaUGUwg23AfEHpdwQ9WLQyA/tGeldTYaYh84qeBKdJnZztcgFtEkFk3OOtxI3VZOYXCOByvRLvJsVibRTAuFqXe4HvzAAfPs4EwcFFz9ERip0/gTHmXgHSUbAGC5y28ygQHKbrjP1DQ2FtipyUtV9v7bIJwf/EE3CRarWjTP4mAEdZYY5swL1piJj6J8u0076cp9fOnPnAX/VvG7yGfwI1jtiAqTFMYdQtXG+MJ+agOCZSiCdF8IGT4W9gRDxX4unGZFVGntHj4UvTNgYT8YOuiS+NrM+kPJ41fkcobbrSS8eAGfN+sswzN89KSrDFGiu7MMUQa4qwynMDXaVYbyIecI7ArDi43fYdrO8H2gkExgexmesEdg+xkujjYpv1YyzHWyu8LQy3eyO8FwvSc4AtvMcOn2izm1mOGuwMluO8NiJ7vlDNM6U9cYTuZPOlOnGMob3Sjm0mKGGJ2pEwzXQ4zO1AWGn+ROdisZno0KR2CLGKKn1DvLsKyT3TaG06+yTnbLGJLpTO1liAoQdpUhuc7UUoYldKZWMiylM7WQYUmdqX0MUd3ErjLEJnO7wLCCztQqhpV0phYxrKgztYehz/IIFJHhTOLETxCGozmXFSgOw7XCYQsVieFUoo7jxWY4crgSFIDhkaeJisBww3GTEYLhROdMsHGGe8422jjDCb+TXhCGV9bRoHAMua/CphlO2Ae8gjH0mGpOIjI8YJehWjWxLRDDGSYoNJTBmcVR0izDQT4FEBZCHTKg2CzDfAb2Bv/31jOEL0Z2mCF8YQ5jxa1nGFdDGKjAdiybSoQTm+GHevDOZ/+DhqKgDEHMEL42R+UYiM0QAu8YtJThQz2qYwet9KHK0ztVECkmw8cyVhcq/1RIhqlOHRuqMFlEhlaqKFyva+fhXYkDebI7v3/S6Y0CMkyGtJiFXZ8VSkFVPIaov8loIDFJKQrHUNvHf5qySpkKx1CJa8WMmOW8RWOoHeE3M0t6i8YQFlthmM4QjaEe16igPCEEZmhAI8WJcO1mCA7xH7adZYiKj32yE8MFY4jqisl9B6h9g0WGXzCGt4JGl8N2+HUEkkVrr8IyhBidr5QvlQjGMKu62vpINY2CMcwsLCZ3SacBmRXRpzQeTgFDtWaGWnbtMRovFc9wy7nW17PXlt1nzKfQohzsCK6cK9JlRE9W1g+6psj3A+wIlgFDh2NHvKwI2MwqJlp9IWr4ot5hwqCgeCQVslQMTdl70/TaqR5qqDPsCBZO4SXMGQYcbUV31N586yVE+5VP/YLSnVGFVrNuhhEMTVMtE+3j1TVhq2CRzTWuW01RFhsg+xnnX/P9B+wt3ILDLoy1UczWAMOeG1+Xn5v54fXn33EUNXz5UvjsIL9CwoUMYTnuc84bwcbrf355+/E75gbF+2ToEhbWxObHEM7hKXsv/f7rH28veIZ6ob+ysnNdqRoYInl4n+V6Bwb68vaCZ0jQOkAOvQmbV7HkIoZ2bGOjjAM/MtCXlwKGEkFTh0jX0zlV2i1iCL3m1bORRgYa4e2vfIZ9osYj4SIn7WfCmCFqTKmmjTQw0DdE8I9f82/gEh10fminJp/a+niGFvzSdGSRGGjA75c/X/NvQNoRYBs6FA6XZl04htoY9Q0Bj1N4M9DAQl8xh6EGCJs6yGb4DQoPivkMVSfp8r18WIX3BvrTfzETGNgoce+Yaeid9hwOhprBsA8kRVHcgY+umbj3f74z0Jf/vWL9calEULSLvsQ8Mt9RM7JrwQm4ntx9kfywzXz/KzHQH3EGGs5IKWfT/y38jOGyttQMFSMttg0fJJrXv8kMNFhVJbv/7NzIIFh3P3xmmFaFto9H4etPsYH+H2+gwQleejKmIArRNGXI0lQzMqSPFwxSZ33EMPBi8Aba03S//GDkGYcupM966eN2dkhrbAHDt7//KTDQnjWvNg1JJ1nTZ0AuQm52DWKZju2Ddfh7kYHSdJOFpdM0Zt2AnzMzjz/+Z5qh8WcPFyv1qDsCJx2ddTYdnZ8YSvC2o1hSfE7nFylS9F2dk67cCouw+Ilhf+jtzv5y78YCTU7kmwvgspA+T0m7dnqF6nkv7ZuOZQMN9r/JCJsw0PQrmxzLaBZXAQpuSGuquX5pFYYWw2b2qC0PUCiNIp9hbKVz8sQhkNiqSSs27drxDM/kyd8+vT2lMboiU51R2H4+w23S6JwEzp6Haj2B7TOAVP2AxcSHM/KnS4HDS+5EpSlto2p3PUyMX8JAOTazlzd6NERD2lZLFNO/fWfwbmY/3ceVSVSdrPVuCtQMzRq6wvmwGYoJKuSKKRnW1MxePsSmqknle8tTMdSUQV0t4dYfilbtJ6VhWMloKuOShI7llkV1hhUXPgWWLgwdS21tVRlW3rxp8D6ooHJUZGj3mmlvu9NQ6OiTfqQSQ6A31xkVVcd1SFWOCgzpHGFqoPKOpCpHeYb0KgUtzih0JArXyjKkDkiZYFVC5SjHkJlKQQtU7p9A5SjFkIUwxAoLFDrqBUZVgiG/ILAaPIlI5SBm2HfZCLQMgcpyaxJucydlSHz81IoJbN6ASyOQMTSzH40WAB6sPp7vZJEw5KpS0ELeuDB0zHGUixmWdOXrxxSFjm5msFP4Eh7rpDMP+CYMHdWMgLWgHkRNKgUt5AMKHZ9VDmxewqggizSE9RCZ6jK1Zyww71HYRp0qBS1yVY7c9yjqVylo8ZmtcuTUR8rdfEXG+wAmyN374y3r2djmVApa7HpQ5bDufGjv+T0DUOaBNMFw+g2qHHM/+b9P9zGHZjSrUtACqRyapSxR0LF4eEzdmTetUtACqRxBvKcMDyt/d/FPx5uBMnnCo2msdLR/9oFpWZadbKeqyzxV3Qzkw9jMyF8DfStiEFgNo5OhPJDUApvdiB1DlMZkNbhR1PbL2vaXfwHAROpBWJgUGgAAAABJRU5ErkJggg=="
+                        width="25" height="25"><a href="#" onclick="return show(' Bash','main')">Bash</a>
+                </td>
+                <td>#10 <img
+                        src="https://w.namu.la/s/9902ad20648027f151e2f6a49594033c1d131a3ba5033a55c620fe4d82829ccb08408991308723475ba94606488476e02659c86b25469e09d2ddfc4ffb73449ff2ddba9408151432325a3a5d662cb33eec262738680cc7c451318e50d11b72e3"
+                        width="25" height="25"><a href="#" onclick="return show(' Cpp','main')">C++</a>
+                </td>
+            </tr>
+
+            <tr>
+
+            </tr>
+        </table>
+
+    </div>
+
+    <div id="Javascript" style="display:none">
+        <img src="https://github.com/voodootikigod/logo.js/blob/master/js.jpg?raw=true" width="100" height="100">
+        Javascript, 줄여서 Js는 웹 페이지에서 동작을 구성하는 스크립트 언어로, 대부분의 브라우저에서 읽고 사용된다.
+        <br>조사에서 1위를 차지했다.
+        <br>확장자 : js
+        <a href="#" onclick="return show('main','Javascript')""><br>메인 페이지로</a>
+    </div>
+    <div id=" Htmlcss" style="display:none">
+            <img src="https://w.namu.la/s/6f8695350c52d8a6f07a30787fdd07ed65e77e010c16732832924d0effa75207dccdd972b8c7f5b9e7077c006e48cadde42f66172c11432a3c92e4407b4fcfdc98f971be170a1a41165605882e8d83daa8db43c2dea2612682ab9947e9c4465d"
+                width="75" height="75"><img
+                src="https://w.namu.la/s/779cac1a9257c783d10934e258d7ef27388764ce11ca11a6ba183cd17aa68c087262456000c7c302580062725157aac289938874b87037a9ee56ee7a417c1ce45cc18d669ba06f967b759e8733b5afa831376a6f9c8e484c61bb553d0d41fdfe"
+                width="75" height="75">
+            HTML(HyperText Mark-up Language), CSS(Cascading Style Sheet)는 웹 페이지를 구성할 때 쓰이는 언어이다.
+            <br>조사에서 2위를 차지했다.
+            <br>확장자 : html, htm, css
+            <a href="#" onclick="return show('main',' Htmlcss')""><br>메인 페이지로</a>
+    </div>
+    <div id=" Python" style="display:none">
+                <img src="https://www.python.org/static/opengraph-icon-200x200.png" width="100" height="100">
+                Python은 오직 파이썬 환경에서만 구동할 수 있는 인터프리터 언어로, 배포용으론 쓰이지 않고 텍스트 언어 입문 혹은 대이터 관리에 쓰인다.
+                <br>조사에서 3위를 차지했다.
+                <br>확장자 : py
+                <a href="#" onclick="return show('main',' Python')""><br>메인 페이지로</a>
+    </div>
+    <div id=" SQL" style="display:none">
+                    <img src="https://hh-certificates.sgp1.digitaloceanspaces.com/blog/wp-content/uploads/2021/11/11081503/9-92644_database-clipart-raw-data-azure-sql-server-png.png"
+                        width="100" height="100">
+                    SQL(Structured Query Language)은 데이터베이스 관리에 쓰이는 언어로 일반 사용자에게 배포하지 않는다.
+                    <br>조사에서 4위를 차지했다.
+                    <a href="#" onclick="return show('main',' SQL')""><br>메인 페이지로</a>
+    </div>
+    <div id=" Java" style="display:none">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAolBMVEX////kHyAAbbbjAAAAY7IAYbEAZbMAabQAa7XW6PQAZ7MAXrDL4fAAcbnu9/v8//+92Ovf7vcAW69xptLkGhvjDQ6y0edCjcYAV6374eHjFBX5zc7+9vahxeH1+/0Per2Gs9hSlclmoM/0rK3zoaH3wsLrXV7ufX7sZGXsa2wogsGUvNx5rdXnMTPqUlPpSUn2t7f96+zoP0HwjIz61tbxlpazJobbAAAEqklEQVRoge1XaVerOhSVBAgNQxlKaKuM2imgz+r1//+1d8Jkq/XeUknXfW+5P7hgSbNzpn3Oubn5wQ/+Qtxdg2Rxfw0WfA1bHq9hytM/1yDBVyB5xHvpHHt8BZJnfIX0WoeP0jkWONxIJ1kv8a1sjmc8k+6tBVbws2SO/XI2e5HNocwUvJDLsZgBx4NcjlsMHDu5HPfAER4K8N1q9MrfYOWIY7V+Gjs6+5cjjv0rHj+Tb8OlouB1+7bYYTy+tDxAOJTu3D1QKOMriwjHDLed/Q2HMlJsKzjC5u4Qm55uTKwFx6zJpBVezmSI8E5wLJuG+4zBJAmy8gAcnV7dwjP+NT7HouZoSuIuBFmRMdjtoD6WbX3sQkWKzt8dOGuPFTkN65eI+lPzfC8pIk2o2w4iPCdlhhBxx6vmeQskoZSWJXphe3thyUyRQbIJ+2C/hYoip/uCv8LX5lHER5EzR2zCfph7BL2XUyk3IPJt5O8bU14lkMCM0l2+NkWOwx5wJ1i1kClLKVPRBoftatU4LJRBAq2xGyE2dRrL2ea2vcJDOSqhpG1u20UbKnL5JIcDWNoMW+FeyyRg99CShDJH7tc6Em/4wzJnxWXJvItP9VhZBGzav9ck4ctR1BkvCu5rWn4JTcIK5PPy009ft8fvjvgz4ZRSayiFm1OTZicut/piVuGGQZxBFIxrhOTJqX8duiqxWH+upyNaDeEoTIIQKb68WOJZrAwi2wwOPomIkQ4hCUxqGIiovMji2HUtAddlLC6zoIi4TTXT9E27OPJmQA0y/erEU7AqTjVV11WA9hGmpvM8+5SzOUH2EA6BZMLKrMgjnqa2QJpyHuVBFjPLO3XhBBkkH0oyFLGONFcyh0MMeqEhTnZugXFC+aCw98jUMy83jajOT5bVH1FoBj9dK54bBwfZ5XBdG1SI75hSqBU9qsrYtSZejYnF4iznhqrqlMTdh0w3+WDdev+xDoJEKZSLVpeMAJxORKVS1W90x8nn0XfSyilTVaXEQAaqYQAIEaQoytzak0lln5LRYfAYuMcW1oAxYEXK8yB23491J99l6DF1IB4QE+eyLP074Iznjy8pCuOyGhsAz6CfezDoc8ZGJIk1hKiGeFRkZSyQBVFKIctUPp7iJqlu1OUBs4guQKmoRADx7fGsyahK0AeACqikGMEUbzJpIp6w3BZiAmoCqKvSiDLr2wVjZVyz84PgguiKThxFOUwW7snu6wxKQtArHw2Xo2RAO5lWENxyKAPAmp99LweyyeDDKbxqnp39cU5FdvJ4iLccN+PzIU2rEvMpMnSdFxDg33u5nVWROSdBq2/leXFhOdLq5kd1TTOgeRRVWcaMuQ1YPapWkGmpTVUxqxpR2RnhRWf3+annwv1SAu1P79DPql0PhndVTyHLJ306u4UfncvRQTgjLsV4ndqo1RSwENkpCFlQHjszcSvb17KhHMfGTROnwYky9NwsIqZJqmEbUHs7Zv3+Z44YviIEW4SJCnZh13HiPE0jCHzMxIYyATRrSlxWRZQi1fR9H8a/IP5m73QsMcs1B85b+D4sKLaYWkrYIr53/hGmU8fxJg1gZvlPDy0/+P/gX+rkXWpMU5czAAAAAElFTkSuQmCC"
+                            width="100" height="100">
+                        Java는 객체 지향 컴파일 언어로 게임 혹은 프로그램을 만들때 쓰인다.
+                        <br>확장자 : java
+                        <a href="#" onclick="return show('main',' Java')""><br>메인 페이지로</a>
+    </div>
+    <div id=" Nodejs" style="display:none">
+                            <img src="./image/nodejs-new-pantone-black-_1_.png" width="100" height="100">
+                            Node.js는 Javascript기반 서버 언어이다.
+                            <br>조사에서 6위를 차지했다.
+                            <br>확장자 : js
+                            <a href="#" onclick="return show('main',' Nodejs')""><br>메인 페이지로</a>
+    </div>
+    <div id=" Typescript" style="display:none">
+                                <img src="https://w.namu.la/s/586b56f80ada29375db50c319d2a9522aeda0494f23918781d1399450d2560807943395448b052394b805fb97a10160e916fc11192e7ce18e0f24d8a0cff58a05e746f82fe5951335a15a1f55117b13e1eb3bfad84548cd05c3546f343d30d60"
+                                    width="100" height="100">
+                                Typescript는 더 엄격한 문법의 Javascript이다.
+                                <br>조사에서 7위를 차지했다.
+                                <br>확장자 : ts
+                                <a href="#" onclick="return show('main',' Typescript')""><br>메인 페이지로</a>
+    </div>
+    <div id=" Csharp" style="display:none">
+                                    <img src="https://w.namu.la/s/a5c8b52bd00f38f3430dd7540867240527fd91e023abc9ff5afc7612faaf0ff3d089ebc7d17fd742323e15a32383753a3777de02ec664a6e15b0e92847220dc4c8b8693698715c0a6f1e2ebf08285467bae8529741077caf4f21184429065877"
+                                        width="100" height="100">
+                                    C#은 자바와 유사한 객체 지향 언어이다.
+                                    <br>유니티 구문 등에 쓰인다.
+                                    <br>조사에서 8위를 차지했다.
+                                    <br>확장자 : cs
+                                    <a href="#" onclick="return show('main',' Csharp')""><br>메인 페이지로</a>
+    </div>
+    <div id=" Bash" style="display:none">
+                                        <img src="data:image/png;base64,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"
+                                            width="100" height="100">
+                                        Bash는 리눅스 계열 OS에서 쓰이는 쉘이다.
+                                        <br>조사에서 9위를 차지했다.
+                                        <br>확장자 : sh
+                                        <a href="#" onclick="return show('main',' Bash')""><br>메인 페이지로</a>
+    </div>
+    <div id=" Cpp" style="display:none">
+                                            <img src="https://w.namu.la/s/9902ad20648027f151e2f6a49594033c1d131a3ba5033a55c620fe4d82829ccb08408991308723475ba94606488476e02659c86b25469e09d2ddfc4ffb73449ff2ddba9408151432325a3a5d662cb33eec262738680cc7c451318e50d11b72e3"
+                                                width="100" height="100">
+                                            C++은 C를 계승한 언어로 GUI등에 쓰인다.
+                                            <br>조사에서 10위를 차지했다.
+                                            <br>확장자 : cpp
+                                            <a href="#" onclick="return show('main',' Cpp')""><br>메인 페이지로</a>
+    </div>
+
+</body>
+
+</html>
